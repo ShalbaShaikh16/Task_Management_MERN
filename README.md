@@ -5,30 +5,6 @@ A full-stack Task Management Web Application built using the **MERN Stack (Mongo
 
 ---
 
-**🚀 Live Demo**
-
-🔗 [Click here to view the live app](https://task-management-mern-app.netlify.app)  
-*(Update this link with your actual deployed app)*
-
----
-
-**📸 Screenshots**
-🔐 Signup Page  
-![Signup Screenshot](./screenshots/Signup.png)
-
-🔐 Login Page  
-![Login Screenshot](./screenshots/Login.png)
-
-🏠 Dashboard  
-![Dashboard Screenshot](./screenshots/Dash.png)
-
-✅ Task Management  
-![Tasks Screenshot](./screenshots/All.png)
-
-> Make sure to place your screenshots inside a `/screenshots` folder in your repository.
-
----
-
 **🔧 Features**
 
 - 🔐 User Authentication (Register / Login / Logout)
@@ -59,7 +35,20 @@ A full-stack Task Management Web Application built using the **MERN Stack (Mongo
 - dotenv
 
 ---
+**📸 Screenshots**
+🔐 Signup Page  
+![Signup Screenshot](./screenshots/Signup.png)
 
+🔐 Login Page  
+![Login Screenshot](./screenshots/Login.png)
+
+🏠 Dashboard  
+![Dashboard Screenshot](./screenshots/Dash.png)
+
+✅ Task Management  
+![Tasks Screenshot](./screenshots/All.png)
+
+---
 **🔐 Authentication Flow**
 
 - Passwords are hashed using bcrypt before storing in MongoDB.
@@ -97,7 +86,7 @@ npm start
 ```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-PORT=5000
+PORT=3001
 ```
 
 ---
@@ -107,7 +96,7 @@ PORT=5000
 - [ReactJS Documentation](https://reactjs.org)
 - [MongoDB Documentation](https://www.mongodb.com/docs/)
 - [JWT Guide](https://jwt.io/introduction/)
-- [Tailwind CSS](https://tailwindcss.com) / [Material UI](https://mui.com)
+- [Tailwind CSS](https://tailwindcss.com) 
 
 ---
 
