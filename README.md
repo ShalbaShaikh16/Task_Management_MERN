@@ -1,5 +1,5 @@
 
-# 📝 Task Management Full Stack MERN App
+# 📝 Taskify- Task Management App
 
 A full-stack Task Management Web Application built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**. The app allows authenticated users to manage tasks efficiently by adding, editing, deleting, and marking tasks as complete or incomplete.
 
