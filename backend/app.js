@@ -7,7 +7,11 @@ const UserAPI = require("./routes/user");
 const TaskAPI=require("./routes/task");
 
 
-app.use(cors());
+app.use(cors({
+    origin: "https://task-management-mern-hlqy.vercel.app", // frontend URL
+    credentials: true
+}));
+
 app.use(express.json()); 
 
 // Routes
