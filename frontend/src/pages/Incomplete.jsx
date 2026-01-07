@@ -8,7 +8,7 @@ const Incomplete = () => {
         };
         useEffect(() => {
           const fetch=async()=>{
-          const response  =  await axios.get("http://localhost:3001/api/v2/get-incomp-task",{headers})
+          const response  =  await axios.get( `${process.env.REACT_APP_API_URL}/api/v2/get-incomp-task`,{headers})
          setData(response.data.data);
           }
         fetch();
