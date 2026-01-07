@@ -26,10 +26,11 @@ const Signup = () => {
         }
         try {
             const response = await axios.post(
-                "http://localhost:3001/api/v1/sign-in",
-                Data,
-                { headers: { "Content-Type": "application/json" } }
-            );
+    `${process.env.REACT_APP_API_URL}/api/v1/sign-in`, 
+    Data,
+    { headers: { "Content-Type": "application/json" } }
+);
+
             setData({ username: "", email: "", password: "" });
             console.log("Response:", response.data);
             toast.success(response.data.message, { autoClose: 2000 });
