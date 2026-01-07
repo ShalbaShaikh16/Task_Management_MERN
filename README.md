@@ -35,6 +35,14 @@ A full-stack Task Management Web Application built using the **MERN Stack (Mongo
 - dotenv
 
 ---
+## 🚀 Live Demo
+
+- 🌐## 🚀 Live Demo
+
+- 🌐 **Frontend:** [Taskify Live App](https://task-management-mern-hlqy.vercel.app)
+
+- ⚙️ **Backend API:** [Taskify Backend](https://task-management-backend.onrender.com)
+
 **📸 Screenshots**
 🔐 Signup Page  
 ![Signup Screenshot](./screenshots/Signup.png)
