@@ -31,7 +31,7 @@ const Login = () => {
     }
     try {
       const response = await axios.post(
-        "http://localhost:3001/api/v1/log-in",
+         `${process.env.REACT_APP_API_URL}/api/v1/log-in`,
         Data,
         { headers: { "Content-Type": "application/json" } }
       );
