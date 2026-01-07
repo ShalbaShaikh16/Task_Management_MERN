@@ -18,7 +18,7 @@ const Cards = ({home,setInputs,data,setupdatedData}) => {
   const handleCompleteTask = async(id)=>{
     try{
     await axios.put(
-        `http://localhost:3001/api/v2/update-Comp-task/${id}`,{},{headers}
+        `${process.env.REACT_APP_API_URL}/api/v2/update-Comp-task/${id}`,{},{headers}
       );
     
       toast.success("Task updated successfully!", {
@@ -33,7 +33,7 @@ const handleImp = async(id)=>{
   try{
 
     await axios.put(
-      `http://localhost:3001/api/v2/update-Imp-task/${id}`,{},{headers}
+      `${process.env.REACT_APP_API_URL}/api/v2/update-Imp-task/${id}`,{},{headers}
     );
     
     toast.success("Task updated successfully!", {
@@ -48,7 +48,7 @@ const handleImp = async(id)=>{
 const deleteTask = async(id)=>{
   try{
 
-    await axios.delete(`http://localhost:3001/api/v2/delete-task/${id}`, { headers });
+    await axios.delete(`${process.env.REACT_APP_API_URL}/api/v2/delete-task/${id}`, { headers });
     
     toast.success("Task Deleted successfully!", {
       position: "top-right",
